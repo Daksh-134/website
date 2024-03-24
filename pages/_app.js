@@ -11,7 +11,6 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/junoon-logo-only.png" />
-        <meta property="og:image" content="/junoon-logo-only.png" />
         <meta name="theme-color" content="#000000" />
         <link rel="shortcut icon" href="/junoon-logo-only.png" />
         <meta
@@ -20,6 +19,14 @@ export default function App({ Component, pageProps }) {
         />
         <link rel="apple-touch-icon" href="/junoon-logo-only.png" />
         <title>Junoon</title>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Junoon" />
+        <meta name="twitter:description" content="Welcome to the Official website of Junoon" />
+        <meta name="twitter:image" content="/junoon-logo-only.png" />
+        <meta property="og:title" content="Junoon" />
+        <meta property="og:description" content="Welcome to the Official website of Junoon" />
+        <meta property="og:image" content="/junoon-logo-only.png" />
+        <meta property="og:url" content="https://www.junoon.asia/" /> 
       </Head>
       <Component {...pageProps} />
       <Analytics />
